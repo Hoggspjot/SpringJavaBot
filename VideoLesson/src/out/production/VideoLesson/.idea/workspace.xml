@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RunManager" selected="Application.Lesson21.Lesson21">
+    <configuration name="Lesson21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson21" />
+      <module name="VideoLesson" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson21.Lesson21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson21.Lesson21" />
+      <module name="VideoLesson" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson21.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Lesson21.Lesson21" />
+        <item itemvalue="Application.Lesson21" />
+      </list>
+    </recent_temporary>
+  </component>
+</project>
