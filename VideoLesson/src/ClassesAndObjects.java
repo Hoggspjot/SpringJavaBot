@@ -3,14 +3,14 @@
 public class ClassesAndObjects {
     public static void main(String[] args) {
        Person pers1 = new Person();
-       pers1.name = "Roma";
-       pers1.age = 20;
-       System.out.println(pers1.name+" "+pers1.age);
+       pers1.setName("Рома");
+       pers1.setAge(20);
+       System.out.println(pers1.getName()+" "+pers1.getAge());
        
        Person pers2 = new Person();
-       pers2.name = "Vova";
-       pers2.age = 21;
-       System.out.println(pers2.name+" "+pers2.age);
+       pers2.setName("Вова");
+       pers2.setAge(21);
+       System.out.println(pers2.getName()+" "+pers2.getAge());
 
     }
 }
@@ -20,7 +20,25 @@ public class ClassesAndObjects {
     // Действия, которые он может совершать (методы)
 
 class Person{
-    String name;
-    int age;
-}
+   private String name;
+   private int age;
+
+   public void setName(String username){
+    if (username.isEmpty()){
+        System.out.println("Выввели пустое значение");
+    }
+     else name = username;
+   }
+
+   public String getName(){
+    return name;
+   }
+    public void setAge(int userAge){
+        age = userAge;
+    }
+
+public int getAge(){
+    return age;
+    }
+   }
 
