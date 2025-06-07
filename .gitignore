@@ -35,7 +35,7 @@ out/
 .project
 .classpath
 .cproject
-.settings/
+
 
 # === VS Code ===
 .vscode/
@@ -51,7 +51,7 @@ application-local.yml
 .env
 
 # === Logs ===
-*.log
+
 logs/
 
 # === Others ===
