@@ -27,6 +27,7 @@ build/
 *.iml
 *.iws
 *.ipr
+*.xml
 out/
 
 # === Eclipse ===
