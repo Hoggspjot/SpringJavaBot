@@ -28,6 +28,7 @@ build/
 *.iws
 *.ipr
 *.xml
+.idea/misc.xml
 out/
 
 # === Eclipse ===
