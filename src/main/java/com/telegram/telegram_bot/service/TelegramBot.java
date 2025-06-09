@@ -2,10 +2,13 @@ package com.telegram.telegram_bot.service;
 
 import com.telegram.telegram_bot.command.CommandManager;
 import com.telegram.telegram_bot.command.CommandPattern;
+import com.telegram.telegram_bot.command.UpdateReceivedEvent;
 import com.telegram.telegram_bot.config.BotConfig;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.hibernate.annotations.Comment;
+import org.springframework.context.ApplicationEvent;
+import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Component;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
@@ -45,8 +48,9 @@ public class TelegramBot extends TelegramLongPollingBot {
 
 //    получаем доступ к имени и токену через конфиг
     private final BotConfig botConfig;
-    // переменная для работы с командами вида /start
-    private final CommandManager commandManager;
+
+
+    private final ApplicationEventPublisher eventPublisher;
 
 
 /*    Это обязательные методы, которые требует Telegram Bots API,
@@ -74,7 +78,7 @@ public class TelegramBot extends TelegramLongPollingBot {
             log.info("Получено сообщение: '{}' от chatId '{}'", text, chatId);
 
             // передаем текст в классменеджер для действий по команде
-            commandManager.findCommand(update);
+            eventPublisher.publishEvent(new UpdateReceivedEvent(this,update));
 
         }
     }

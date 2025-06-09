@@ -4,6 +4,7 @@ package com.telegram.telegram_bot.command;
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 import org.telegram.telegrambots.meta.api.objects.Update;
 
@@ -39,6 +40,11 @@ public class CommandManager {
         for (CommandPattern commandPattern : commands) {
             commandMap.put(commandPattern.getCommand(), commandPattern);
         }
+    }
+
+    @EventListener
+    public void hUpdate(UpdateReceivedEvent event) {
+        findCommand(event.getUpdate());
     }
 
     //Находим соответствие и отправляем ответ на команду
