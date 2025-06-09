@@ -1,5 +1,7 @@
 package com.telegram.telegram_bot.service;
 
+import com.telegram.telegram_bot.command.CommandManager;
+import com.telegram.telegram_bot.command.CommandPattern;
 import com.telegram.telegram_bot.config.BotConfig;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -43,6 +45,8 @@ public class TelegramBot extends TelegramLongPollingBot {
 
 //    получаем доступ к имени и токену через конфиг
     private final BotConfig botConfig;
+    // переменная для работы с командами вида /start
+    private final CommandManager commandManager;
 
 
 /*    Это обязательные методы, которые требует Telegram Bots API,
@@ -69,18 +73,9 @@ public class TelegramBot extends TelegramLongPollingBot {
 
             log.info("Получено сообщение: '{}' от chatId '{}'", text, chatId);
 
-            if (text.equals("/start")) {
-                SendMessage message = new SendMessage(chatId, "Привет!Я жив!");
-                try {
-                    execute(message);
-                    log.info("Ответ отправлен пользователю");
-                } catch (TelegramApiException e) {
-                    log.info("Ошибка при отправке сообщения");
-                    throw new RuntimeException(e);
-                }
-            }else {
-                log.info("Неизвестная команда: '{}'",text);
-            }
+            // передаем текст в классменеджер для действий по команде
+            commandManager.findCommand(update);
+
         }
     }
 }
