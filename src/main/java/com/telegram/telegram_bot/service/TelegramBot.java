@@ -7,6 +7,7 @@ import com.telegram.telegram_bot.config.BotConfig;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.hibernate.annotations.Comment;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEvent;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Component;
@@ -31,8 +32,8 @@ log.error
 @Slf4j
 
 /*эта аннотация говорит спрингу что это класс надо сделать бином
-и он будет управляться контейнером (?) спринга (чем он будет управляться точно?)
-поэтому спринг знает что это компонент  */
+и он будет управляться контейнером спринга
+спринг знает что это компонент  */
 @Component
 
 
