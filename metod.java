@@ -1,3 +1,5 @@
+package javaDesktop;
+
 class metod {
  public static void main(String[] args) {
     Pr10times();

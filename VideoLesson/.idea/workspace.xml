@@ -4,56 +4,375 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25476de5-8d33-47d8-a223-a082c1bfe559" name="Changes" comment="" />
+    <list default="true" id="fe0275ad-9232-4ada-9ea5-89a4dafe79de" name="Changes" comment="package changes">
+      <change afterPath="$PROJECT_DIR$/../SpringProjectVideo/spring-app1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringProjectVideo/spring-app1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringProjectVideo/spring-app1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringProjectVideo/spring-app1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringProjectVideo/spring-app1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringProjectVideo/spring-app1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringProjectVideo/spring-app1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringProjectVideo/spring-app1/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson00000/newTask/Encod/Encode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson00000/newTask/Help.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson00000/newTask/Help123/Help1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson00000/newTask/Help123/strSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson00000/newTask/Help123/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson00000/newTask/wowtest/sub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson00000/newTask/wowtest/telega.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaRush/less9/lesson12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newjavaxxx/TestHsh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newjavaxxx/TestIter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newjavaxxx/pract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraysofStrings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Break_cont.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoWhile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Forloop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IfMetod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Input.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaces/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaces/Info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaces/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaces/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson18setGetClassesAndObjects/ClassesAndObjects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson19This/lesson19.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson20Constructors/Lesson20.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson21Static/Lesson21.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson22Final/Lesson22.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson23StringBuilder/Lesson23.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson24FormatString/Lesson24.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson25/Lesson25.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson26/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson26/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson26/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson26/Lesson26.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson29/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson29/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson29/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson29/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson33/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson34/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson34/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson34/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson35/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson35/Test2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson35/Test3Intetface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Multiarrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwitchOp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Variables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VideoLesson.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WhileLoop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/Arrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/ArraysofStrings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/Break_cont.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/ClassesAndObjects.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/DoWhile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/Forloop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/Human1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/Human2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/IfMetod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/Input.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/Lesson20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/Lesson21/Human.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/Lesson21/Lesson21.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/Lesson22/Lesson22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/Lesson22/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/Lesson23/Lesson23.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/Multiarrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/Strings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/SwitchOp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/Variables.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/VideoLesson.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/WhileLoop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/VideoLesson/lesson19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaRush/less9/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../metod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newjavaxxx/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../newjavaxxx/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newproj/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newproj/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newproj/Test.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Hoggspjot&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Hoggspjot/javaDesktop.git&quot;,
+    &quot;accountId&quot;: &quot;cc2ec36b-d38a-4d71-a4e2-8a79197de55e&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="2olBXKC9y1w67aNmJHyIOcu0WXD" />
+  <component name="ProjectId" id="2olQhQDDvrAw3ZQAbFvaGncUd0s" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Lesson20.executor": "Run",
-    "Application.Lesson21.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "mani12",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/JavaProject/javaDesktop/VideoLesson/src"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Example.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lesson24.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lesson25.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lesson26.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lesson29.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lesson33.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lesson34.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lesson35.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainSet.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReadObject.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test3Intetface.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VideoLessonsFramework.lesson001.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VideoLessonsFramework.lesson002.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VideoLessonsFramework.lesson003LinkedList.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.VideoLessonsFramework.lesson004Map.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VideoLessonsFramework.lesson005LinkedHashMapTreeMap.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VideoLessonsFramework.lesson007HashCodeEquals.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VideoLessonsFramework.lesson008EqualsAndHashCode.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VideoLessonsFramework.lesson009HashMap.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VideoLessonsFramework.lesson010Sort.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VideoLessonsFramework.lesson012Queue.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VideoLessonsFramework.lesson013Stack.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VideoLessonsFramework.lesson014Iterable.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WriteObject.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson002.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson003.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson004.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson005.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson006.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson008.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson009.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson010.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson011.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson012.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson015.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson017.pacage1.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson018.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson020.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson021.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson024.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson025.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson027.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson028.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson029.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson032.ReadObject.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson032.WriteObject.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson033.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testing (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.testing.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/JavaProject/javaDesktop/VideoLesson&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration name="Lesson21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson21" />
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\JavaProject\javaDesktop\VideoLesson\src\lesson032" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lesson032" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Example">
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VideoLessonsFramework.lesson014Iterable.Example" />
       <module name="VideoLesson" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="VideoLessonsFramework.lesson014Iterable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VideoLessonsFramework.lesson011Comparator.Main" />
+      <module name="VideoLesson" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="VideoLessonsFramework.lesson011Comparator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VideoLessonsFramework.lesson012Queue.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VideoLessonsFramework.lesson012Queue.Main" />
+      <module name="VideoLesson" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="VideoLessonsFramework.lesson012Queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VideoLessonsFramework.lesson013Stack.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VideoLessonsFramework.lesson013Stack.Main" />
+      <module name="VideoLesson" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="VideoLessonsFramework.lesson013Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VideoLessonsFramework.lesson014Iterable.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VideoLessonsFramework.lesson014Iterable.Main" />
+      <module name="VideoLesson" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="VideoLessonsFramework.lesson014Iterable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lesson21" />
+        <item itemvalue="Application.Example" />
+        <item itemvalue="Application.VideoLessonsFramework.lesson014Iterable.Main" />
+        <item itemvalue="Application.VideoLessonsFramework.lesson013Stack.Main" />
+        <item itemvalue="Application.VideoLessonsFramework.lesson012Queue.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="25476de5-8d33-47d8-a223-a082c1bfe559" name="Changes" comment="" />
-      <created>1731434319817</created>
+      <changelist id="fe0275ad-9232-4ada-9ea5-89a4dafe79de" name="Changes" comment="" />
+      <created>1731441800106</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1731434319817</updated>
+      <updated>1731441800106</updated>
+      <workItem from="1748117097306" duration="459000" />
+      <workItem from="1748119523076" duration="418000" />
+      <workItem from="1748376045756" duration="4066000" />
+      <workItem from="1748450394779" duration="3787000" />
+      <workItem from="1748548650972" duration="5062000" />
+      <workItem from="1749156444962" duration="1885000" />
+      <workItem from="1749238739019" duration="464000" />
     </task>
+    <task id="LOCAL-00001" summary="package changes">
+      <option name="closed" value="true" />
+      <created>1731442015075</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731442015075</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="package changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="package changes" />
   </component>
 </project>
